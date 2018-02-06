@@ -1,0 +1,78 @@
+.flags {
+  width: 400px;
+  height: 250px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.mexico {
+  border-left: 133px solid #006847;
+  border-right:133px solid #CE1126;
+  width: 133px;
+  background: url(../images/mexico.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+
+}
+
+.canada {
+  border-left: 110px solid #FF0000;
+  border-right:110px solid #FF0000;
+  width: 180px;
+  background: url(../images/canada.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 140px 160px;
+}
+
+.southAfrican{
+  background: #007C59;
+  width: 40px;
+
+}
+
+.southAfrican::after {
+  content: "";
+  position:absolute;
+  margin-top: 50px;
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-left: 110px solid black;
+  border-bottom: 80px solid transparent;
+
+}
+.southAfrican::before{
+  content: "";
+  position:absolute;
+  margin-left: 40px;
+  width: 0;
+  height: 0;
+  border-top: 125px solid transparent;
+  border-left: 170px solid #007C59;
+  border-bottom: 125px solid transparent;
+
+}
+.southAfrican2{
+  position: absolute;
+  margin-top: 100px;
+  width: 400px;
+  height: 50px;
+  background-color:#007C59;
+  
+  
+}
+
+.southAfrican2::before{
+    content: "";
+  position:absolute;
+  width: 0;
+  height: 0;
+  margin-top: -70px;
+  border-top: 100px solid transparent;
+  border-left: 140px solid #FCB514;
+  border-bottom: 100px solid transparent;
+}
+
+
