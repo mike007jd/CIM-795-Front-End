@@ -1,0 +1,9 @@
+@mixin media($width){
+  @media only screen and(max-width:$width)
+  @content;
+}
+
+  @include media(768px){
+    background: green;
+  }
+}
