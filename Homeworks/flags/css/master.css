@@ -41,6 +41,7 @@
   border-top: 80px solid transparent;
   border-left: 110px solid black;
   border-bottom: 80px solid transparent;
+  
 
 }
 .southAfrican::before{
@@ -74,5 +75,435 @@
   border-left: 140px solid #FCB514;
   border-bottom: 100px solid transparent;
 }
+
+.trapezoid{
+  position:absolute;
+  border-top: 85px solid  	#E23D28; 
+  border-left: 115px solid transparent; 
+  border-right: 0px solid transparent; 
+  height: 0;
+  width: 215px;
+  margin-left: 70px;
+}
+.trapezoid::after {
+  content:"";
+  position: absolute;
+  border-bottom: 85px solid	#0C1C8C; 
+  border-left: 115px solid transparent; 
+  border-right: 0px solid transparent; 
+  height: 0;
+  width: 215px;
+  margin-top: 80px;
+  margin-left: -115px;
+}
+
+.brazil {
+  background-color: #009c3b;
+}
+.brazil::before{
+  content:"";
+  position:absolute;z-index:1;
+  margin-top: 25px;
+  margin-left: 200px;
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 170px solid #ffdf00;
+  border-bottom: 100px solid transparent;
+}
+.brazil::after{
+  content:"";
+  position:absolute; z-index:1;
+  margin-top: 25px;
+  margin-left: 30px;
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-right: 170px solid #ffdf00;
+  border-bottom: 100px solid transparent;
+}
+.brazilCircle{
+  position: absolute; z-index:2;
+  margin-top:60px;
+  margin-left: 135px;
+  width: 130px;
+  height: 130px; 
+  background:#002776;
+  -moz-border-radius: 50px; 
+  -webkit-border-radius: 50px; 
+  border-radius: 80px;
+}
+
+.british{
+ background:linear-gradient(
+    white,
+   white 40%,
+   #cf142b 40%,
+ #cf142b 60%,
+ white 60%);
+}
+.british::before{
+  content: "";
+  position: absolute;
+  margin-left: 173px;
+  width: 55px; 
+  height: 250px;
+  background: #cf142b;
+}
+
+
+.british::after{
+  content: "";
+  position: absolute;z-index: 1;
+  background: linear-gradient(
+    to top right,
+   #00247d,
+   #00247d 25%,
+   white 25%,
+    white 30%,
+    #cf142b 30%,
+    #cf142b 40%,
+    white 40%,
+   white 55%,
+  #00247d 55%);
+  width:160px;
+  height:90px;
+}
+.britsh1{
+  position: absolute;
+  background: linear-gradient(
+    to top left,
+   #00247d,
+   #00247d 45%,
+   white 45%,
+    white 50%,
+    #cf142b 50%,
+    #cf142b 60%,
+    white 60%,
+   white 75%,
+  #00247d 75%);
+  width:160px;
+  height:90px;
+  margin-left: 0px;
+  margin-top:160px;
+}
+.britsh1::after{
+  content: "";
+  position: absolute;z-index: 1;
+  background: linear-gradient(
+    to bottom left,
+   #00247d,
+   #00247d 25%,
+   white 25%,
+    white 30%,
+    #cf142b 30%,
+    #cf142b 40%,
+    white 40%,
+   white 55%,
+  #00247d 55%);
+  width:160px;
+  height:90px;
+  margin-left: 240px;
+  margin-top:0px;
+}
+.britsh1::before{
+  content: "";
+  position: absolute;z-index: 1;
+  background: linear-gradient(
+    to bottom right,
+   #00247d,
+   #00247d 45%,
+   white 45%,
+    white 50%,
+    #cf142b 50%,
+    #cf142b 60%,
+    white 60%,
+   white 75%,
+  #00247d 75%);
+  width:160px;
+  height:90px;
+  margin-top: -160px;
+  margin-left: 240px
+}
+
+.china{
+  background: red;
+}
+.china::before{
+  content: "★";
+  color: yellow;
+  font-size: 60px;
+  padding: 30px;
+  margin-top: 100px;
+  
+}
+.american{
+  display:-webkit-inline-box;
+  background: repeating-linear-gradient(
+  #B22234,
+    #B22234 7.7%,
+    white 7.7%,
+    white 15.4%
+    
+  ); 
+}
+.american::before{
+  content: "★ ★ ★ ★ ★ ★ \00a0 ★ ★ ★ ★ ★ \b\★ ★ ★ ★ ★ ★ \00a0 ★ ★ ★ ★ ★ \b\ ★ ★ ★ ★ ★ ★ \00a0 ★ ★ ★ ★ ★ \b\ ★ ★ ★ ★ ★ ★ \00a0 ★ ★ ★ ★ ★ \b\ ★ ★ ★ ★ ★ ★ ";
+  letter-spacing: 6px;
+  padding:5px 0 0 10px;
+  font-size: 11.5px;
+  color: white;
+  position: absolute;
+  width: 155px;
+  height: 130px;
+  background: #3C3B6E;
+}
+.japan{
+  background: white;
+}
+.japan::after{
+  content: "";
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 60px;
+  width: 130px; 
+  height: 130px; 
+  background: red;
+  -moz-border-radius: 50px; 
+  -webkit-border-radius: 50px; 
+  border-radius: 150px;
+}
+.czech{
+ background:linear-gradient(
+    white,
+   white 50%,
+   red 50%);
+}
+.czech::before {
+  content: "";
+   content: "";
+  position:absolute;
+  margin-top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 125px solid transparent;
+  border-left: 130px solid #11457e;
+  border-bottom: 125px solid transparent;
+}
+.england{
+ background:linear-gradient(
+    white,
+   white 40%,
+   red 40%,
+ red 60%,
+ white 60%);
+}
+.england::before{
+  content: "";
+  position: absolute;
+  margin-left: 170px;
+  width: 55px; 
+  height: 250px;
+  background: red;
+}
+.cameroon{
+  background:linear-gradient(
+     to right,
+    #007a5e,
+   #007a5e 33.3%,
+   #ce1126 33.3%,
+ #ce1126 66.6%,
+ #fcd116 66.6%);
+}
+.cameroon::after{
+  content: "\b\ \b\ \b\ \b\ \00a0\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \00a0\ \b\★"; 
+  padding-left: 260px;
+  z-index: 1px;
+  font-size: 70px;
+  color:  #fcd116;
+}
+.chile{
+    background:linear-gradient(
+    white,
+   white 50%,
+   #D52B1E 50%);
+}
+.chile::before{
+  content: "★";
+  font-size: 60px;
+  padding: 30px;
+  color:  white;
+  position: absolute;
+  width: 65px; 
+  height: 65px; 
+  background: #0039A6;
+}
+.kuwait{
+  background:linear-gradient(
+    #007a3d,
+    #007a3d 33.3%,
+   white 33.3%,
+   white 66.6%,
+  #ce1126 66.6%);
+}
+.kuwait::before{
+  content: "";
+  position: absolute;
+  margin-top: 75px;
+  margin-left:-75px;
+  border-bottom: 100px solid black;
+  border-left: 85px solid transparent;
+  border-right: 85px solid transparent; 
+  height: 0;
+  width: 80px;
+  transform: rotate(90deg);
+}
+.finland{
+ background:linear-gradient(
+    white,
+   white 40%,
+   #003580 40%,
+ #003580 60%,
+ white 60%);
+}
+.finland::before{
+  content: "";
+  position: absolute;
+  margin-left: 80px;
+  width: 55px; 
+  height: 250px;
+  background: #003580;
+}
+.columbia{
+  background:linear-gradient(
+    yellow,
+   yellow 55%,
+   blue 55%,
+   blue 80%,
+   red 60%);
+}
+.bahama{
+ background:linear-gradient(
+    #00abc9,
+   #00abc9 33.3%,
+   yellow 33.3%,
+   yellow 66.6%,
+   #00abc9 66.6%,
+   #00abc9
+ );
+}
+.bahama::before {
+  content: "";
+   content: "";
+  position:absolute;
+  margin-top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 125px solid transparent;
+  border-left: 100px solid black;
+  border-bottom: 125px solid transparent;
+}
+.congo{
+   background:linear-gradient(
+    to right bottom,
+    green,
+   green 40%,
+   yellow 40%,
+ yellow 60%,
+ red 60%);
+}
+.denmark{
+ background:linear-gradient(
+    red,
+   red 40%,
+   white 40%,
+ white 60%,
+ red 60%);
+}
+.denmark::before{
+  content: "";
+  position: absolute;
+  margin-left: 80px;
+  width: 55px; 
+  height: 250px;
+  background: white;
+}
+.tanzenia{
+  background:linear-gradient(
+    to bottom right,
+    #1eb53a,
+   #1eb53a 30%,
+   #fcd116 30%,
+  #fcd116 36%,
+   black 36%,
+   black 60%,
+   #fcd116 60%,
+   #fcd116 66%,
+   #00a3dd 66%); 
+  
+}
+.norway{
+ background:linear-gradient(
+    red,
+   red 30%,
+   white 30%,
+  white 36%,
+   #002868 36%,
+   #002868 60%,
+   white 60%,
+   white 66%,
+   red 66%);
+}
+
+.norway::after{
+  content: "";
+  position: absolute;
+ background:linear-gradient(
+   to right,
+    red,
+   red 30%,
+   white 30%,
+  white 36%,
+   #002868 36%,
+   #002868 60%,
+   white 60%,
+   white 66%,
+   red 66%);
+}
+.sudan{
+ background:linear-gradient(
+    #d21034,
+   #d21034 33.3%,
+   white 33.3%,
+   white 66.6%,
+   black 66.6%,
+   black
+ );
+}
+.sudan::before {
+  content: "";
+   content: "";
+  position:absolute;
+  margin-top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 125px solid transparent;
+  border-left: 100px solid #007229;
+  border-bottom: 125px solid transparent;
+}
+
+.vienam{
+  background: red;
+}
+.vienam::before{
+    content: "\b\ \b\ \b\ \b\ \00a0\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \b\ \00a0\ \b\ ★"; 
+  font-size: 70px;
+  color:  #fcd116;
+  padding-left: 230px;
+}
+
+
+
+
 
 
